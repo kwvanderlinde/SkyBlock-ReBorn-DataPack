@@ -1,2 +1,0 @@
-gamerule logAdminCommands false
-gamerule commandBlockOutput false
