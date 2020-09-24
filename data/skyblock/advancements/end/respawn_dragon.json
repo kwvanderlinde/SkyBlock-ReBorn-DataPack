@@ -2,7 +2,7 @@
     "display":
     {
         "icon": {"item": "minecraft:end_crystal"},
-        "title": {"translate": "The End... Agin..."},
+        "title": {"translate": "The End... Again..."},
         "description": {"translate": "Respawn the Ender Dragon."},
         "frame": "goal"
     },
