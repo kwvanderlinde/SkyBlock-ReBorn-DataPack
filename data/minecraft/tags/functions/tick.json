@@ -1,0 +1,7 @@
+{
+    "values":
+    [
+        "skyblock:skyblock/tick",
+	"minecraft:main/loop"
+    ]
+}
