@@ -5,8 +5,8 @@
         "title": {"translate": "The End"},
         "description": {"translate": "Or the beginning?"},
         "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
-        "show_toast": false,
-        "announce_to_chat": false
+        "show_toast": true,
+        "announce_to_chat": true
     },
     "criteria":
     {
