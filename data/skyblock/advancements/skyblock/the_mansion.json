@@ -3,7 +3,7 @@
     {
         "icon": {"item": "minecraft:dark_oak_door"},
         "title": {"translate":"The Mansion"},
-        "description": {"translate":"Find the Woodland Mansion within the world boarder."}
+        "description": {"translate":"Find a Woodland Mansion."}
     },
     "parent": "skyblock:skyblock/map_trade",		
     "criteria":

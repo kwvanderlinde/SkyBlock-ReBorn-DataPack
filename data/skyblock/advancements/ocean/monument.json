@@ -3,7 +3,7 @@
     {
         "icon": {"item": "minecraft:prismarine_bricks"},
         "title": {"translate":"Monument"},
-        "description": {"translate":"Find the Ocean Monument inside the world boarder."}
+        "description": {"translate":"Find an Ocean Monument."}
     },
     "parent": "skyblock:ocean/root",	
     "criteria":
