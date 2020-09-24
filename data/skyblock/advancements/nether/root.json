@@ -5,8 +5,8 @@
         "title": {"translate": "Nether"},
         "description": {"translate": "Welcome to The Underworld."},
         "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
-        "show_toast": false,
-        "announce_to_chat": false
+        "show_toast": true,
+        "announce_to_chat": true
     },
     "criteria":
     {

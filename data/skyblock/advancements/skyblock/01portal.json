@@ -4,6 +4,8 @@
         "icon": {"item": "minecraft:obsidian"},
         "title": {"translate": "The Portal"},
         "description": {"translate": "Light a nether portal using lava and wood."}
+        "show_toast": false,
+        "announce_to_chat": false
     },
     "parent": "skyblock:skyblock/cobblestone_generator",
     "criteria":
