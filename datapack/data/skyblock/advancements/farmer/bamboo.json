@@ -1,17 +1,27 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:bamboo"},
-        "title": {"translate": "Bamboo"},
-        "description": {"translate": "Get a stack of bamboo."}
+    "display": {
+        "icon": {
+            "item": "minecraft:bamboo"
+        },
+        "title": {
+            "translate": "Bamboo"
+        },
+        "description": {
+            "translate": "Get a stack of bamboo."
+        }
     },
     "parent": "skyblock:farmer/root",
-    "criteria":
-    {
-        "pickel":
-        {
-	    "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:bamboo","count": 64}]}
+    "criteria": {
+        "pickel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bamboo",
+                        "count": 64
+                    }
+                ]
+            }
         }
     }
 }

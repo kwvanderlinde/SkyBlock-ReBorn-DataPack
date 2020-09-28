@@ -1,17 +1,26 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:slime_ball"},
-        "title": {"translate": "The Stickiest Trampoline In The World"},
-        "description": {"translate": "Collect slimeballs by killing a slime."}
+    "display": {
+        "icon": {
+            "item": "minecraft:slime_ball"
+        },
+        "title": {
+            "translate": "The Stickiest Trampoline In The World"
+        },
+        "description": {
+            "translate": "Collect slimeballs by killing a slime."
+        }
     },
     "parent": "skyblock:skyblock/witch_power",
-    "criteria":
-    {
-        "slime_ball":
-        {
+    "criteria": {
+        "slime_ball": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:slime_ball"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:slime_ball"
+                    }
+                ]
+            }
         }
     }
 }

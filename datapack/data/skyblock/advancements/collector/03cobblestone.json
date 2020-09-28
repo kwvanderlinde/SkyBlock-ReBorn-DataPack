@@ -1,17 +1,27 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:cobblestone"},
-        "title": {"translate": "Cobble Collector"},
-	"description": {"translate": "Get a stack of cobblestone."}
+    "display": {
+        "icon": {
+            "item": "minecraft:cobblestone"
+        },
+        "title": {
+            "translate": "Cobble Collector"
+        },
+        "description": {
+            "translate": "Get a stack of cobblestone."
+        }
     },
     "parent": "skyblock:collector/root",
-    "criteria":
-    {
-        "cobblestone":
-        {
+    "criteria": {
+        "cobblestone": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:cobblestone","count": 64}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cobblestone",
+                        "count": 64
+                    }
+                ]
+            }
         }
     }
 }

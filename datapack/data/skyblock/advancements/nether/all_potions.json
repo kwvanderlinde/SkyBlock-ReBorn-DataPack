@@ -1,21 +1,22 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:milk_bucket"},
-        "title": {"translate": "A Furious Cocktail"},
-        "description": {"translate": "Have every potion effect applied at the same time."},
+    "display": {
+        "icon": {
+            "item": "minecraft:milk_bucket"
+        },
+        "title": {
+            "translate": "A Furious Cocktail"
+        },
+        "description": {
+            "translate": "Have every potion effect applied at the same time."
+        },
         "frame": "challenge"
     },
     "parent": "skyblock:nether/brew_potion",
-    "criteria":
-    {
-        "all_effects":
-        {
+    "criteria": {
+        "all_effects": {
             "trigger": "minecraft:effects_changed",
-            "conditions":
-            {
-                "effects":
-                {
+            "conditions": {
+                "effects": {
                     "minecraft:speed": {},
                     "minecraft:slowness": {},
                     "minecraft:strength": {},

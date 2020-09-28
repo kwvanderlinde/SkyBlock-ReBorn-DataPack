@@ -1,17 +1,27 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:arrow"},
-        "title": {"translate": "Arrows Collector"},
-        "description": {"translate": "Collect 1 stack of arrows."}
+    "display": {
+        "icon": {
+            "item": "minecraft:arrow"
+        },
+        "title": {
+            "translate": "Arrows Collector"
+        },
+        "description": {
+            "translate": "Collect 1 stack of arrows."
+        }
     },
     "parent": "skyblock:collector/root",
-    "criteria":
-    {
-        "arrow":
-        {
-	    "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:arrow","count": 64}]}
+    "criteria": {
+        "arrow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:arrow",
+                        "count": 64
+                    }
+                ]
+            }
         }
     }
 }

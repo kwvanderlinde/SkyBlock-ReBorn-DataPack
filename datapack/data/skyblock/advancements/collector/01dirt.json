@@ -1,17 +1,27 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:dirt"},
-        "title": {"translate": "Dirt Collector"},
-        "description": {"translate": "Hoe coarse dirt to obtain a stack of dirt."}
+    "display": {
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "title": {
+            "translate": "Dirt Collector"
+        },
+        "description": {
+            "translate": "Hoe coarse dirt to obtain a stack of dirt."
+        }
     },
     "parent": "skyblock:collector/01gravel",
-    "criteria":
-    {
-        "dirt":
-        {
+    "criteria": {
+        "dirt": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:dirt","count": 64}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dirt",
+                        "count": 64
+                    }
+                ]
+            }
         }
     }
 }

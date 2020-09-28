@@ -1,15 +1,18 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:enchanting_table"},
-        "title": {"translate": "Enchanter"},
-        "description": {"translate": "Enchant an item at an Enchantment Table."}
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "title": {
+            "translate": "Enchanter"
+        },
+        "description": {
+            "translate": "Enchant an item at an Enchantment Table."
+        }
     },
     "parent": "skyblock:end/diamond",
-    "criteria":
-    {
-        "enchanted_item":
-        {
+    "criteria": {
+        "enchanted_item": {
             "trigger": "minecraft:enchanted_item"
         }
     }

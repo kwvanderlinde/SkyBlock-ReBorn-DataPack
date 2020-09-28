@@ -1,28 +1,35 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:gold_nugget"},
-        "title": {"translate": "Gold Skin"},
-        "description": {"translate": "Anger a Zombified Piglin and get some gold."}
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_nugget"
+        },
+        "title": {
+            "translate": "Gold Skin"
+        },
+        "description": {
+            "translate": "Anger a Zombified Piglin and get some gold."
+        }
     },
     "parent": "skyblock:nether/root",
     "criteria": {
-		"Pigmen": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions":{
-			"entity": {
-				"type": "zombified_piglin"
-						}
-				}
-		},
-		"Gold": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [{
-					"item": "minecraft:gold_nugget",
-					"count": 1
-				}]
-			}
-		}
-	}
+        "Pigmen": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombified_piglin"
+                }
+            }
+        },
+        "Gold": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gold_nugget",
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    }
 }

@@ -1,254 +1,497 @@
 {
-"display":
-    {
-        "icon": {"item": "minecraft:cyan_concrete"},
-        "title": {"translate": "Taste the Rainbow"},
-        "description": {"translate": "Make every color of wool, concrete, and terracotta."},
-	"frame": "challenge"
+    "display": {
+        "icon": {
+            "item": "minecraft:cyan_concrete"
+        },
+        "title": {
+            "translate": "Taste the Rainbow"
+        },
+        "description": {
+            "translate": "Make every color of wool, concrete, and terracotta."
+        },
+        "frame": "challenge"
     },
     "parent": "skyblock:collector/dye",
-    "criteria":
-    {
-        "wool0":
-        {
-	    "trigger": "minecraft:inventory_changed",
-	    "conditions" : {"items": [{"item": "minecraft:white_wool"}]}
-        },
-        "wool1":
-        {
+    "criteria": {
+        "wool0": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:orange_wool"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:white_wool"
+                    }
+                ]
+            }
         },
-        "wool2":
-        {
+        "wool1": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:magenta_wool"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:orange_wool"
+                    }
+                ]
+            }
         },
-	    "wool3":
-        {
+        "wool2": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:light_blue_wool"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:magenta_wool"
+                    }
+                ]
+            }
         },
-	    "wool4":
-        {
+        "wool3": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:yellow_wool"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:light_blue_wool"
+                    }
+                ]
+            }
         },
-	    "wool5":
-        {
+        "wool4": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:lime_wool"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:yellow_wool"
+                    }
+                ]
+            }
         },
-	    "wool6":
-        {
+        "wool5": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:pink_wool"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lime_wool"
+                    }
+                ]
+            }
         },
-	    "wool7":
-        {
+        "wool6": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:gray_wool"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:pink_wool"
+                    }
+                ]
+            }
         },
-	    "wool8":
-        {
+        "wool7": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:light_gray_wool"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gray_wool"
+                    }
+                ]
+            }
         },
-	    "wool9":
-        {
+        "wool8": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:cyan_wool"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:light_gray_wool"
+                    }
+                ]
+            }
         },
-	    "wool10":
-        {
+        "wool9": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:purple_wool"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cyan_wool"
+                    }
+                ]
+            }
         },
-	    "wool11":
-        {
+        "wool10": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:blue_wool"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:purple_wool"
+                    }
+                ]
+            }
         },
-	    "wool12":
-        {
+        "wool11": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:brown_wool"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blue_wool"
+                    }
+                ]
+            }
         },
-	    "wool13":
-        {
+        "wool12": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:green_wool"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:brown_wool"
+                    }
+                ]
+            }
         },
-	    "wool14":
-        {
+        "wool13": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:red_wool"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:green_wool"
+                    }
+                ]
+            }
         },
-	    "wool15":
-        {
+        "wool14": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:black_wool"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:red_wool"
+                    }
+                ]
+            }
         },
-	"terracotta0":
-        {
-	    "trigger": "minecraft:inventory_changed",
-	    "conditions" : {"items": [{"item": "minecraft:white_terracotta"}]}
-        },
-        "terracotta1":
-        {
+        "wool15": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:orange_terracotta"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:black_wool"
+                    }
+                ]
+            }
         },
-        "terracotta2":
-        {
+        "terracotta0": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:magenta_terracotta"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:white_terracotta"
+                    }
+                ]
+            }
         },
-	    "terracotta3":
-        {
+        "terracotta1": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:light_blue_terracotta"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:orange_terracotta"
+                    }
+                ]
+            }
         },
-	    "terracotta4":
-        {
+        "terracotta2": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:yellow_terracotta"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:magenta_terracotta"
+                    }
+                ]
+            }
         },
-	    "terracotta5":
-        {
+        "terracotta3": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:lime_terracotta"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:light_blue_terracotta"
+                    }
+                ]
+            }
         },
-	    "terracotta6":
-        {
+        "terracotta4": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:pink_terracotta"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:yellow_terracotta"
+                    }
+                ]
+            }
         },
-	    "terracotta7":
-        {
+        "terracotta5": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:gray_terracotta"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lime_terracotta"
+                    }
+                ]
+            }
         },
-	    "terracotta8":
-        {
+        "terracotta6": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:light_gray_terracotta"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:pink_terracotta"
+                    }
+                ]
+            }
         },
-	    "terracotta9":
-        {
+        "terracotta7": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:cyan_terracotta"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gray_terracotta"
+                    }
+                ]
+            }
         },
-	    "terracotta10":
-        {
+        "terracotta8": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:purple_terracotta"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:light_gray_terracotta"
+                    }
+                ]
+            }
         },
-	    "terracotta11":
-        {
+        "terracotta9": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:blue_terracotta"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cyan_terracotta"
+                    }
+                ]
+            }
         },
-	    "terracotta12":
-        {
+        "terracotta10": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:brown_terracotta"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:purple_terracotta"
+                    }
+                ]
+            }
         },
-	    "terracotta13":
-        {
+        "terracotta11": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:green_terracotta"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blue_terracotta"
+                    }
+                ]
+            }
         },
-	    "terracotta14":
-        {
+        "terracotta12": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:red_terracotta"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:brown_terracotta"
+                    }
+                ]
+            }
         },
-	    "terracotta15":
-        {
+        "terracotta13": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:black_terracotta"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:green_terracotta"
+                    }
+                ]
+            }
         },
-        "concrete0":
-        {
-	    "trigger": "minecraft:inventory_changed",
-	    "conditions" : {"items": [{"item": "minecraft:white_concrete"}]}
-        },
-        "concrete1":
-        {
+        "terracotta14": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:orange_concrete"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:red_terracotta"
+                    }
+                ]
+            }
         },
-        "concrete2":
-        {
+        "terracotta15": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:magenta_concrete"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:black_terracotta"
+                    }
+                ]
+            }
         },
-	"concrete3":
-        {
+        "concrete0": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:light_blue_concrete"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:white_concrete"
+                    }
+                ]
+            }
         },
-	"concrete4":
-        {
+        "concrete1": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:yellow_concrete"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:orange_concrete"
+                    }
+                ]
+            }
         },
-	"concrete5":
-        {
+        "concrete2": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:lime_concrete"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:magenta_concrete"
+                    }
+                ]
+            }
         },
-	"concrete6":
-        {
+        "concrete3": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:pink_concrete"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:light_blue_concrete"
+                    }
+                ]
+            }
         },
-	"concrete7":
-        {
+        "concrete4": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:gray_concrete"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:yellow_concrete"
+                    }
+                ]
+            }
         },
-	"concrete8":
-        {
+        "concrete5": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:light_gray_concrete"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lime_concrete"
+                    }
+                ]
+            }
         },
-	"concrete9":
-        {
+        "concrete6": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:cyan_concrete"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:pink_concrete"
+                    }
+                ]
+            }
         },
-	"concrete10":
-        {
+        "concrete7": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:purple_concrete"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gray_concrete"
+                    }
+                ]
+            }
         },
-	"concrete11":
-        {
+        "concrete8": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:blue_concrete"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:light_gray_concrete"
+                    }
+                ]
+            }
         },
-	"concrete12":
-        {
+        "concrete9": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:brown_concrete"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cyan_concrete"
+                    }
+                ]
+            }
         },
-	"concrete13":
-        {
+        "concrete10": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:green_concrete"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:purple_concrete"
+                    }
+                ]
+            }
         },
-	"concrete14":
-        {
+        "concrete11": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:red_concrete"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blue_concrete"
+                    }
+                ]
+            }
         },
-	"concrete15":
-        {
+        "concrete12": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:black_concrete"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:brown_concrete"
+                    }
+                ]
+            }
+        },
+        "concrete13": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:green_concrete"
+                    }
+                ]
+            }
+        },
+        "concrete14": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:red_concrete"
+                    }
+                ]
+            }
+        },
+        "concrete15": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:black_concrete"
+                    }
+                ]
+            }
         }
-		
     }
 }

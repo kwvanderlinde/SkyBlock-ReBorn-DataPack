@@ -1,73 +1,89 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:compass"},
-        "title": {"translate": "Exploration"},
-        "description": {"translate": "Explore all surrounding islands."},
+    "display": {
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "title": {
+            "translate": "Exploration"
+        },
+        "description": {
+            "translate": "Explore all surrounding islands."
+        },
         "frame": "challenge"
     },
     "parent": "skyblock:skyblock/all_trees",
-    "criteria":
-    {
-	"swamp":
-	{
-	    "trigger": "minecraft:location",
-            "conditions": {"biome": "minecraft:swamp"}
-        },
-        "desert":
-	{
+    "criteria": {
+        "swamp": {
             "trigger": "minecraft:location",
-            "conditions": {"biome": "minecraft:desert"}
+            "conditions": {
+                "biome": "minecraft:swamp"
+            }
         },
-        "savanna":
-	{
+        "desert": {
             "trigger": "minecraft:location",
-            "conditions": {"biome": "minecraft:savanna"}
+            "conditions": {
+                "biome": "minecraft:desert"
+            }
         },
-        "jungle":
-	{
+        "savanna": {
             "trigger": "minecraft:location",
-            "conditions": {"biome": "minecraft:jungle"}
+            "conditions": {
+                "biome": "minecraft:savanna"
+            }
         },
-        "roofed_forest":
-	{
+        "jungle": {
             "trigger": "minecraft:location",
-            "conditions": {"biome": "minecraft:dark_forest"}
+            "conditions": {
+                "biome": "minecraft:jungle"
+            }
         },
-        "taiga":
-	{
+        "roofed_forest": {
             "trigger": "minecraft:location",
-            "conditions": {"biome": "minecraft:taiga"}
+            "conditions": {
+                "biome": "minecraft:dark_forest"
+            }
         },
-        "birch_forest":
-	{
+        "taiga": {
             "trigger": "minecraft:location",
-            "conditions": {"biome": "minecraft:birch_forest"}
+            "conditions": {
+                "biome": "minecraft:taiga"
+            }
         },
-        "mushroom_fields":
-	{
+        "birch_forest": {
             "trigger": "minecraft:location",
-            "conditions": {"biome": "minecraft:mushroom_fields"}
+            "conditions": {
+                "biome": "minecraft:birch_forest"
+            }
         },
-	 "soul_sand_valley_fields":
-	{
+        "mushroom_fields": {
             "trigger": "minecraft:location",
-            "conditions": {"biome": "minecraft:soul_sand_valley"}
+            "conditions": {
+                "biome": "minecraft:mushroom_fields"
+            }
         },
-	 "warped_forest":
-	{
+        "soul_sand_valley_fields": {
             "trigger": "minecraft:location",
-            "conditions": {"biome": "minecraft:warped_forest"}
+            "conditions": {
+                "biome": "minecraft:soul_sand_valley"
+            }
         },
-	 "basalt_deltas":
-	{
+        "warped_forest": {
             "trigger": "minecraft:location",
-            "conditions": {"biome": "minecraft:basalt_deltas"}
+            "conditions": {
+                "biome": "minecraft:warped_forest"
+            }
         },
-	 "crimson_forest":
-	{
+        "basalt_deltas": {
             "trigger": "minecraft:location",
-            "conditions": {"biome": "minecraft:crimson_forest"}
+            "conditions": {
+                "biome": "minecraft:basalt_deltas"
+            }
+        },
+        "crimson_forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "minecraft:crimson_forest"
+            }
         }
     }
 }

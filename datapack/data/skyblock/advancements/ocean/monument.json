@@ -1,17 +1,22 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:prismarine_bricks"},
-        "title": {"translate":"Monument"},
-        "description": {"translate":"Find an Ocean Monument."}
+    "display": {
+        "icon": {
+            "item": "minecraft:prismarine_bricks"
+        },
+        "title": {
+            "translate": "Monument"
+        },
+        "description": {
+            "translate": "Find an Ocean Monument."
+        }
     },
-    "parent": "skyblock:ocean/root",	
-    "criteria":
-    {
-        "monument":
-	{
+    "parent": "skyblock:ocean/root",
+    "criteria": {
+        "monument": {
             "trigger": "minecraft:location",
-            "conditions": {"feature": "monument"}
+            "conditions": {
+                "feature": "monument"
+            }
         }
     }
 }

@@ -1,17 +1,26 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:wither_skeleton_skull"},
-        "title": {"translate": "Spooky Scary Skeletons"},
-        "description": {"translate": "Obtain a Wither Skeleton's skull."}
+    "display": {
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "title": {
+            "translate": "Spooky Scary Skeletons"
+        },
+        "description": {
+            "translate": "Obtain a Wither Skeleton's skull."
+        }
     },
     "parent": "skyblock:nether/gold",
-    "criteria":
-    {
-        "wither_skull":
-        {
+    "criteria": {
+        "wither_skull": {
             "trigger": "minecraft:inventory_changed",
-            "conditions": {"items": [{"item": "minecraft:wither_skeleton_skull"}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wither_skeleton_skull"
+                    }
+                ]
+            }
         }
     }
 }

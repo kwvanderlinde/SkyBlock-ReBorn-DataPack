@@ -1,21 +1,25 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:wet_sponge"},
-        "title": {"translate": "Respect Your Elders!"},
-        "description": {"translate": "DO NOT KILL THE ELDER GURDIAN."},
+    "display": {
+        "icon": {
+            "item": "minecraft:wet_sponge"
+        },
+        "title": {
+            "translate": "Respect Your Elders!"
+        },
+        "description": {
+            "translate": "DO NOT KILL THE ELDER GURDIAN."
+        },
         "frame": "challenge"
     },
     "parent": "skyblock:ocean/guardian",
-    "criteria":
-    {
-        "mining":
-	{
+    "criteria": {
+        "mining": {
             "trigger": "minecraft:effects_changed",
-            "conditions":
-	    {
-                "effects": {"minecraft:mining_fatigue": {}}
+            "conditions": {
+                "effects": {
+                    "minecraft:mining_fatigue": {}
+                }
             }
-	}
+        }
     }
 }

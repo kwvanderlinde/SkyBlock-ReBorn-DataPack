@@ -1,17 +1,24 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:enchanted_book"},
-        "title": {"translate":"Magical Trade"},
-        "description": {"translate":"Trade for an Enchanted Book"}
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": {
+            "translate": "Magical Trade"
+        },
+        "description": {
+            "translate": "Trade for an Enchanted Book"
+        }
     },
-    "parent": "skyblock:skyblock/the_cure",	
-    "criteria":
-    {
-        "trade":
-        {
+    "parent": "skyblock:skyblock/the_cure",
+    "criteria": {
+        "trade": {
             "trigger": "minecraft:villager_trade",
-	        "conditions": {"item": {"item": "minecraft:enchanted_book"}}
-	    }
+            "conditions": {
+                "item": {
+                    "item": "minecraft:enchanted_book"
+                }
+            }
+        }
     }
 }

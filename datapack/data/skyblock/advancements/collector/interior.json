@@ -1,27 +1,49 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:painting"},
-        "title": {"translate": "Interior Decoratior"},
-        "description": {"translate": "Make 16 torches, bookshelves, and paintings."}
+    "display": {
+        "icon": {
+            "item": "minecraft:painting"
+        },
+        "title": {
+            "translate": "Interior Decoratior"
+        },
+        "description": {
+            "translate": "Make 16 torches, bookshelves, and paintings."
+        }
     },
     "parent": "skyblock:collector/01stonebrick",
-    "criteria":
-    {
-        "torch":
-        {
+    "criteria": {
+        "torch": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:torch","count": 16}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:torch",
+                        "count": 16
+                    }
+                ]
+            }
         },
-        "bookshelf":
-        {
+        "bookshelf": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:bookshelf","count": 16}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bookshelf",
+                        "count": 16
+                    }
+                ]
+            }
         },
-        "painting":
-        {
+        "painting": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:painting","count": 16}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:painting",
+                        "count": 16
+                    }
+                ]
+            }
         }
     }
 }

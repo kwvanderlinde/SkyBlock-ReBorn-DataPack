@@ -1,18 +1,27 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:shulker_shell"},
-        "title": {"translate": "Great View From up Here"},
-        "description": {"translate": "Levitate up 50 blocks from the attacks of a Shulker."},
+    "display": {
+        "icon": {
+            "item": "minecraft:shulker_shell"
+        },
+        "title": {
+            "translate": "Great View From up Here"
+        },
+        "description": {
+            "translate": "Levitate up 50 blocks from the attacks of a Shulker."
+        },
         "frame": "challenge"
     },
     "parent": "skyblock:end/find_end_city",
-    "criteria":
-    {
-        "levitated":
-        {
+    "criteria": {
+        "levitated": {
             "trigger": "minecraft:levitation",
-            "conditions": {"distance": {"y": {"min": 50}}}
+            "conditions": {
+                "distance": {
+                    "y": {
+                        "min": 50
+                    }
+                }
+            }
         }
     }
 }

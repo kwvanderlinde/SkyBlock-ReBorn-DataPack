@@ -1,17 +1,27 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:pumpkin"},
-        "title": {"translate": "Pumpkin Farmer"},
-        "description": {"translate": "Harvest 64 pumpkins."}
+    "display": {
+        "icon": {
+            "item": "minecraft:pumpkin"
+        },
+        "title": {
+            "translate": "Pumpkin Farmer"
+        },
+        "description": {
+            "translate": "Harvest 64 pumpkins."
+        }
     },
     "parent": "skyblock:farmer/seedy_place",
-    "criteria":
-    {
-        "pickel":
-        {
-	    "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:pumpkin","count": 64}]}
+    "criteria": {
+        "pickel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:pumpkin",
+                        "count": 64
+                    }
+                ]
+            }
         }
     }
 }

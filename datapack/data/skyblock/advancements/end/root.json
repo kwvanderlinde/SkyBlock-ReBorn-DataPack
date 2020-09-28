@@ -1,19 +1,24 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:end_stone"},
-        "title": {"translate": "The End"},
-        "description": {"translate": "Or the beginning?"},
+    "display": {
+        "icon": {
+            "item": "minecraft:end_stone"
+        },
+        "title": {
+            "translate": "The End"
+        },
+        "description": {
+            "translate": "Or the beginning?"
+        },
         "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
         "show_toast": true,
         "announce_to_chat": true
     },
-    "criteria":
-    {
-        "entered_end":
-        {
+    "criteria": {
+        "entered_end": {
             "trigger": "minecraft:changed_dimension",
-            "conditions": {"to": "the_end"}
+            "conditions": {
+                "to": "the_end"
+            }
         }
     }
 }

@@ -1,17 +1,27 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:gravel"},
-        "title": {"translate": "Gravel Collector"},
-        "description": {"translate": "Zombies drop gravel. Get a stack of it!"}
+    "display": {
+        "icon": {
+            "item": "minecraft:gravel"
+        },
+        "title": {
+            "translate": "Gravel Collector"
+        },
+        "description": {
+            "translate": "Zombies drop gravel. Get a stack of it!"
+        }
     },
     "parent": "skyblock:collector/03cobblestone",
-    "criteria":
-    {
-        "gravel":
-        {
+    "criteria": {
+        "gravel": {
             "trigger": "minecraft:inventory_changed",
-            "conditions" : {"items": [{"item": "minecraft:gravel","count": 64}]}
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gravel",
+                        "count": 64
+                    }
+                ]
+            }
         }
     }
 }

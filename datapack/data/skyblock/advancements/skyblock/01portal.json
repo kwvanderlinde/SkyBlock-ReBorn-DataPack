@@ -1,23 +1,24 @@
 {
-    "display":
-    {
-        "icon": {"item": "minecraft:obsidian"},
-        "title": {"translate": "The Portal"},
-        "description": {"translate": "Light a nether portal using lava and wood."},
+    "display": {
+        "icon": {
+            "item": "minecraft:obsidian"
+        },
+        "title": {
+            "translate": "The Portal"
+        },
+        "description": {
+            "translate": "Light a nether portal using lava and wood."
+        },
         "show_toast": false,
         "announce_to_chat": false
     },
     "parent": "skyblock:skyblock/cobblestone_generator",
-    "criteria":
-    {
-        "nether":
-        {
+    "criteria": {
+        "nether": {
             "trigger": "minecraft:changed_dimension",
-            "conditions":
-            {
+            "conditions": {
                 "to": "the_nether"
             }
         }
     }
 }
-
