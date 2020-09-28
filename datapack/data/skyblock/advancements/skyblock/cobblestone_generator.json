@@ -8,18 +8,18 @@
         },
         "description": {
             "translate": "Make a cobblestone generator with water and lava."
-        },
-        "parent": "skyblock:skyblock/root",
-        "criteria": {
-            "cobblestone": {
-                "trigger": "minecraft:inventory_changed",
-                "conditions": {
-                    "items": [
-                        {
-                            "item": "minecraft:cobblestone"
-                        }
-                    ]
-                }
+        }
+    },
+    "parent": "skyblock:skyblock/root",
+    "criteria": {
+        "cobblestone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
+                ]
             }
         }
     }
