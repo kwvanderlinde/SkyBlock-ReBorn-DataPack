@@ -4,10 +4,10 @@
             "item": "minecraft:end_stone"
         },
         "title": {
-            "translate": "The End"
+            "translate": "Here be Dragons"
         },
         "description": {
-            "translate": "Or the beginning?"
+            "translate": "Which way is out?"
         },
         "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
         "show_toast": true,
